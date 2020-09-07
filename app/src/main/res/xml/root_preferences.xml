@@ -25,19 +25,4 @@
             app:title="Rounded corners" />
 
     </PreferenceCategory>
-
-    <PreferenceCategory app:title="Haptic settings">
-    <ListPreference
-        app:defaultValue="reply"
-        app:entries="@array/reply_entries"
-        app:entryValues="@array/reply_values"
-        app:key="reply"
-        app:title="Keyboard tapping force"
-        app:useSimpleSummaryProvider="true" />
-
-    <SwitchPreferenceCompat
-        app:key="sync"
-        app:summaryOff="Creates tap effect on recognizing fingerprints with FOD"
-        app:title="Vibrate on FOD" />
-    </PreferenceCategory>
 </PreferenceScreen>
