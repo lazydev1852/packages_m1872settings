@@ -3,10 +3,8 @@
     <PreferenceCategory app:title="Display Settings">
 
         <ListPreference
-            app:defaultValue="reply"
-            app:entries="@array/reply_entries"
-            app:entryValues="@array/reply_values"
-            app:key="reply"
+            app:entries="@array/screensaturation"
+            app:entryValues="@array/screensaturation"
             app:title="Saturation"
             app:useSimpleSummaryProvider="true" />
 
